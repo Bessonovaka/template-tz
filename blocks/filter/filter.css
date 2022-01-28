@@ -1,3 +1,23 @@
+.filter {
+  padding: 20px 15px;
+  border: 1px black solid;
+  box-sizing: border-box;
+}
+
+.filter__top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 5px;
+}
+
+.filter__block {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
 .filter__icon {
   width: 20px;
   height: 20px;
@@ -8,4 +28,15 @@
 
 .filter__icon:hover {
   transform: scale(1.2);
+}
+
+.filter__bottom {
+  display: none;
+  opacity: 0;
+}
+
+.filter__bottom_open {
+  animation: open 2s ease;
+  display: block;
+  opacity: 1;
 }

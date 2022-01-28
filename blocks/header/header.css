@@ -1,5 +1,6 @@
 .header {
   border: 1px black solid;
+  width: 100%;
 }
 
 .header__top {
@@ -9,11 +10,4 @@
   align-items: center;
   padding: 20px 15px;
   position: relative;
-}
-
-.header__bottom {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 15px 5px;
 }
