@@ -1,0 +1,36 @@
+.menu__wrapper {
+  position: relative;
+  border: 1px black solid;
+}
+
+.menu {
+  display: flex;
+  flex-direction: column;
+  margin-right: 15px;
+  height: 95vh;
+}
+
+.menu:hover .menu__hidden {
+  animation: open 2s ease;
+  display: block;
+}
+
+@keyframes open {
+  0% {
+    display: block;
+    opacity: 0;
+  }
+  100% {
+    display: block;
+    opacity: 1;
+  }
+}
+
+.menu__hidden {
+  margin-left: 15px;
+  display: none;
+}
+
+.menu__hidden:first-child {
+  margin-left: 10px;
+}

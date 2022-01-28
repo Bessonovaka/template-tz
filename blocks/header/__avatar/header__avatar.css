@@ -1,0 +1,18 @@
+.header__avatar {
+  display: flex;
+  align-items: center;
+}
+
+.header__avatar-logo {
+  cursor: pointer;
+  transition: all 0.6s ease;
+}
+
+.header__avatar-logo:hover {
+  color: blueviolet;
+  transform: scale(1.2);
+}
+
+.header__name {
+  margin-right: 15px;
+}

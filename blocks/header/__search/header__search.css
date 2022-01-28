@@ -1,0 +1,9 @@
+.header__search {
+  border: none;
+  background-color: #f5f5f5;
+  border-bottom: 1px black solid;
+}
+
+.header__search::placeholder {
+  color: black;
+}

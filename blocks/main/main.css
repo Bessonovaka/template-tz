@@ -1,0 +1,7 @@
+.main {
+  overflow-x: scroll;
+  overflow-y: scroll;
+  width: 99.85%;
+  height: 79.3%;
+  border: 1px black solid;
+}
